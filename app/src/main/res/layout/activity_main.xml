@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Nim     : 10116468 -->
+<!--Nama    : Muhamad Nurcahya Eko Diputra-->
+<!--Kelas   : AKB-11 -->
+<!--Tanggal : 4 April 2019 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_get_start_timitory"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="@string/Judul"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="24sp"
+                android:textColor="@color/Hitam"/>
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:background="@drawable/border">
+
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_mulai"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/mulai"
+            android:fontFamily="@font/nunito_bold"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonround1"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
