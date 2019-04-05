@@ -13,13 +13,13 @@ import android.widget.Button;
 
 public class logincode extends AppCompatActivity {
 
-    Button btn_belikode;
+    Button btn_masuk;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logincode);
-        btn_belikode = (Button) findViewById(R.id.btn_belikode);
-        btn_belikode.setOnClickListener(new View.OnClickListener() {
+        btn_masuk = (Button) findViewById(R.id.btn_masuk);
+        btn_masuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(logincode.this, biodata.class);
